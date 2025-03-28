@@ -1,0 +1,209 @@
+body{
+    background-color: aliceblue;
+    margin: 0px;
+}
+
+div #ImgUp{
+    background-image: url"wood.jpg";
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #634b30;
+    height: 55px;
+}
+
+.NavButton{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-family: "Protest Guerrilla", sans-serif;
+}
+
+.NavButton:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+header{
+height: 600px;
+background-image: url("wood.png");
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+#titleheader{
+    color: rgb(255, 255, 255);
+    font-family: "Protest Guerrilla", sans-serif;
+    font-size: 700%;
+    font-style: normal;
+    margin: 0px;
+    text-shadow: 2px 2px 4px black;
+    margin-left: 25px;
+} 
+
+#headerleft{
+    height: 500px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+}
+
+#headerleft h1{
+    text-align: center;
+    margin:0px;
+    margin-bottom: 5%;
+    color: rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h4{
+    text-align: center;
+    margin:0px;
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#left{
+    width: 50%;
+}
+
+#headerright{
+    width: 50%;
+    margin: 5%;
+    background-image: url("PeoplePlay.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 2%;
+}
+
+article{
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+article div{
+height: 300px;
+width: 300px;
+border-radius: 5%;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+font-size: 25px;
+text-shadow: 2px 2px 4px black;
+}
+
+
+#a1{
+    background-image: url("sharing.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#a2{
+    background-image: url("organizza.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+#a3{
+    background-image: url("gioca.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+article div:hover{
+    opacity: 50%;
+}
+
+#text{
+    width: 100%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#text h4{
+    width: 300px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section{
+    font-family: "Protest Guerrilla", sans-serif;;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+        text-align: center;
+    margin-bottom: 0px;
+}
+
+footer{
+    height: 40px;
+    background-color: black;
+}
+
+#Subscribe{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+
+}
+
+#Subscribe h6{
+    margin:0px;
+    font-size: 25px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#BottonSubscribe{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 12px 24px;
+    border-radius: 8px;
+}
+
+#BottonSubscribe:hover{
+    background-color: rgb(58, 58, 58);
+}
+
+
+footer{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    color: white;
+    font-weight: bold;
+    margin: 0px 50px;
+}
